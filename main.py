@@ -1,6 +1,5 @@
 import discord, os;
 from discord.ext import commands
-import sys,discord,requests,json,threading,random,asyncio,aiohttp,time
 intents = discord.Intents.default();
 intents.message_content = True;
 bot = discord.Client(intents = intents);
